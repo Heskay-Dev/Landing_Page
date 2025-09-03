@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: poppins;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f7c7df;
+    color: #050505;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.navbar {
+    background-color: transparent;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.random{
+  width: 150px;
+  height: 150px;
+}
+
+.services {
+    background-color: #f7c7df;
+}
+.text {
+    font-size: 10px;
+    text-align: center;
+}
+.textcolor {
+  color: rgb(228, 157, 4);
+}
+/* .container {
+    gap: 8px; spacing between images
+} */
+
+figure {
+  text-align: start;
+  width: 250px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.products {
+  padding: 16px 16px;
+  background-color: #fcd8e9;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: start;
+}
+
+.card {
+  border: none;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #28a745;
+}
+
+.row > .col-md-3 {
+  margin-bottom: 16px;
+}
+
+.services.Benefits {
+  padding: 32px 16px;
+  background-color: #f0f0f0;
+}
+
+.services h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-img-left {
+  width: 100%;
+  height: 120px; /* Reduced image height */
+  object-fit: none;
+  padding-right: 180px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.row > .col-md-3 {
+  margin-bottom: 1rem;
+}
+
+.testimonial-section {
+  background-color: #f5faff;
+  border-radius: 10px;
+}
+
+.testimonial-img {
+  max-width: 350px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.testimonial-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #333;
+  padding-left: 70px;
+}
+
+.testimonial-quote {
+  font-size: 16px;
+  font-style: normal;
+  color: #0c0c0c;
+  /* border-left: 6px solid #d46c0a;  */
+  margin-bottom: 10px;
+  padding-left: 40px;
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
+
+.custom-box {
+  border-left: 6px solid #e27107;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #b400cc;
+  margin-top: 0%;
+  padding-left: 40px;
+}
+
+.btn-primary {
+  background-color: #0869a1;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.9rem;
+}
+.url-container {
+  background-image: url(/Pics/Rectangle\ 14@2x.png); /* path to your image */
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 40vh;
+ width: 100%; /* full width */
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.footer h6 {
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer .form-control {
+  border-radius: 0%;
+}
+
+.footer .btn {
+  border-radius: 0%;
+  border-width: 100%;
+  margin-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.footer-link {
+  color: #0a0a0a;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 2px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #0303f3;
+}
+
+.social-icons a {
+  color: #171718;
+  margin-right: 15px;
+  margin-left: 0px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0582f7;
+}
+
+.back-to-top {
+  color: #111111;
+  text-decoration: none;
+  font-size: 10px;
+  transition: color 0.3s ease;
+}
+
+.back-to-top:hover {
+  color: #f70707;
+}
+
+.custom-box {
+  border-left: 6px solid #7DCFB6; /* Customize this color to match the sample */
+  background-color: #f9f9f9;      /* Light background for contrast */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-radius: 8px;             /* Rounded corners */
+}
